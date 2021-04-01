@@ -1,3 +1,17 @@
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.autograd import Variable
+from torch.nn import init
+from torch.optim import lr_scheduler
+from torch import optim
+
+
+!pip install tensorboardX
+import tensorboardX as tbx
+from tensorboardX import SummaryWriter
+
 def train_model(model, dataloaders_dict, criterion, optimizer, num_epochs, name, folder_name, debug_mode=False):
     
     log_path = F"/content/drive/My Drive/Colab Notebooks/Log/"
