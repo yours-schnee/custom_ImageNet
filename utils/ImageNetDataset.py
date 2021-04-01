@@ -1,6 +1,11 @@
 import glob
 import torch.utils.data as data
 import pandas as pd
+#from PIL import Image  
+import PIL
+import PIL.Image
+from PIL import ImageFile
+
 
 def make_path_list(rootpath):
     """
