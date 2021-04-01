@@ -8,7 +8,7 @@ from torch.optim import lr_scheduler
 from torch import optim
 
 
-!pip install tensorboardX
+#!pip install tensorboardX
 import tensorboardX as tbx
 from tensorboardX import SummaryWriter
 
