@@ -1,4 +1,5 @@
 import glob
+import torch.utils.data as data
 
 def make_path_list(rootpath):
     """
