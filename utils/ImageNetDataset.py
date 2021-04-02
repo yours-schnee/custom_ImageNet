@@ -23,7 +23,7 @@ def make_path_list(rootpath):
         list of path for each data
     """
 
-    img_list = glob.glob(rootpath+'*/*.png')
+    img_list = glob.glob(rootpath+'*/*.jpg')
 
     return img_list
 
